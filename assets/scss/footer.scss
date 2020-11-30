@@ -1,0 +1,22 @@
+#footer-container{
+   // border: 2px solid red;
+   color: white;
+   display: flex;
+   align-items: flex-start;
+    padding: 5px;
+    height: 50px;
+    background-color:gray;
+    #right-part{
+        padding: 5px;
+
+    }
+    #link-part{
+        padding: 5px;
+        display: flex;
+        flex-direction: column;
+        a{
+            color: white;
+            text-decoration: none;
+        }
+    }
+}

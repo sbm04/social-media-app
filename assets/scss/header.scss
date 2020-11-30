@@ -1,0 +1,37 @@
+#header-container{
+   // border: 2px solid red;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 8px 0px 8px;
+    height: 50px;
+    background: #914df3;
+    
+    #socail-media-name{
+       p{
+           color: white;
+           font-size: 20px;
+           margin: 13px 0px 0px 0px ;
+       }
+    }
+    #header_buttons{
+        ul{
+            
+            list-style-type:none;
+            li{
+               // border: 2px solid royalblue;
+                display: inline;
+                border-radius: 15px;
+                //background-color: rgba(0, 238, 255, 0.87);
+                //background: linear-gradient(94.57deg,#f6430f .78%,#ee9f15 99.43%);
+                background: #bb8ff8;
+                padding: 11px;
+                margin: 5px;
+                a{
+                    color:white;
+                    text-decoration: none;
+                }
+            }
+        }
+
+    }
+}
